@@ -120,5 +120,7 @@ updateStatistik();
 
 }
 
-/* JALANKAN SAAT HALAMAN DIBUKA */
+/* JALANKAN SAAT HALAMAN SUDAH DIMUAT */
+window.onload = function(){
 loadData();
+}
